@@ -1,0 +1,25 @@
+{
+  "name": "slider-gallery-block",
+  "version": "1.0.0",
+  "description": "Enable a Slider Block Style for the Gallery Block in WordPress Block Editor.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wp-scripts start --output-path=assets/js",
+    "build": "wp-scripts build",
+    "bundle": "dir-archiver --src . --dest ../slider-gallery-block.zip --exclude .DS_Store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore README.md composer.json composer.lock node_modules vendor package-lock.json package.json .travis.yml phpcs.xml.dist sass style.css.map yarn.lock tsconfig.json prepros.config webpack.config.js"
+  },
+  "keywords": [
+    "gallery",
+    "block",
+    "editor",
+    "slider",
+    "Block Editor",
+    "WordPress"
+  ],
+  "author": "indithemes",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "^30.4.0",
+    "typescript": "^5.6.3"
+  }
+}

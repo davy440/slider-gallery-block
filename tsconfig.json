@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "module": "CommonJS",
+        "target": "ES6",
+        "noImplicitThis": true,
+        "sourceMap": false,
+        "preserveConstEnums": true,
+        "outDir": "assets/js",
+        "rootDir": "assets/src"
+    }
+}

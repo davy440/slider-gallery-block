@@ -1,0 +1,31 @@
+// Styling for slider
+
+.is-style-slider__wrapper {
+    position: relative;
+    overflow: hidden;
+
+    button {
+        cursor: pointer;
+        border: 0;
+        border-radius: 0;
+        background-color: #eeeeee;
+
+        &:hover {
+            background-color: #dddddd;
+        }
+
+
+    }
+}
+
+.is-style-slider {
+    display: flex;
+
+    &__navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        margin: 0.125rem auto;
+    }
+}
